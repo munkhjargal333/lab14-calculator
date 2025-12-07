@@ -1,7 +1,8 @@
 package labxx.sict.must.edu.mn;
 
 /**
- * Үржүүлэх үйлдлийг гүйцэтгэдэг класс - Develop дээрх өөрчлөлт.
+ * Тооцоолуурын үржүүлэх модуль.
+ * Develop салбар дээр шинэчилсэн тайлбар.
  */
 public class Multiplication {
     
