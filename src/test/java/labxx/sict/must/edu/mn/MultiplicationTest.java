@@ -1,0 +1,39 @@
+package labxx.sict.must.edu.mn;
+
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * Multiplication классын тест.
+ */
+public class MultiplicationTest {
+    
+    @Test
+    void testMultiplyPositive() {
+        Multiplication calc = new Multiplication();
+        assertEquals(6.0, calc.multiply(2.0, 3.0), 
+            "2 * 3 нь 6-тай тэнцүү байх ёстой");
+    }
+    
+    @Test
+    void testMultiplyNegative() {
+        Multiplication calc = new Multiplication();
+        assertEquals(-6.0, calc.multiply(-2.0, 3.0), 
+            "-2 * 3 нь -6-тай тэнцүү байх ёстой");
+    }
+    
+    @Test
+    void testMultiplyZero() {
+        Multiplication calc = new Multiplication();
+        assertEquals(0.0, calc.multiply(0.0, 5.0), 
+            "0 * 5 нь 0-тэй тэнцүү байх ёстой");
+    }
+    
+    @Test
+    void testMultiplyDecimals() {
+        Multiplication calc = new Multiplication();
+        assertEquals(7.5, calc.multiply(2.5, 3.0), 0.0001, 
+            "2.5 * 3 нь 7.5-тай тэнцүү байх ёстой");
+    }
+}
