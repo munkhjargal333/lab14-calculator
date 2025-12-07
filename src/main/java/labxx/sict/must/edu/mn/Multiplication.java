@@ -2,7 +2,7 @@ package labxx.sict.must.edu.mn;
 
 /**
  * Тооцоолуурын үржүүлэх модуль.
- * Develop салбар дээр шинэчилсэн тайлбар.
+ * Develop222 салбар дээр шинэчилсэн тайлбар.
  */
 public class Multiplication {
     
