@@ -1,0 +1,5 @@
+# Java build directories
+target/
+bin/
+out/
+
