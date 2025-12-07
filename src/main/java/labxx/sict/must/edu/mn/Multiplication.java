@@ -1,7 +1,7 @@
 package labxx.sict.must.edu.mn;
 
 /**
- * Үржүүлэх үйлдлийг гүйцэтгэдэг класс.
+ * Үржүүлэх үйлдлийг гүйцэтгэдэг класс - Develop дээрх өөрчлөлт.
  */
 public class Multiplication {
     
