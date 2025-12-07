@@ -1,17 +1,14 @@
-git checkout -b  feature/right-version
-git switch feature/right-version 
+git checkout -b  feature/add-multiplication
+git switch feature/add-multiplication 
 
 git switch develop 
- git merge feature/right-version
+ git merge feature/add-multiplication
 ижил мөрөн дэх утгыг өөрчилснөөр conflict үүснэ
 
 
-<<<<<<< HEAD
-     * @return multiply
-=======
-     * @return number
->>>>>>> feature/right-version
-
+ * Тооцоолуурын үржүүлэх модуль.
+ * Develop222 салбар дээр шинэчилсэн тайлбар.
+ */
 
 accept current одоогийн хувилбар эсвэл incoming change гэсэн 2р төрлийн сонголт гарж ирэх ба хөгжүүлэгч харж байгаад өөрөө шийднэ
 
